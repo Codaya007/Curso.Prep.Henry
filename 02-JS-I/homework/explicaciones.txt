@@ -1,0 +1,46 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+VARIABLES
+     Las variables son espacios de la memoria que se reservan para guardar "datos" que necesitamos para que nuestro programa funcione. Por ejemplo, si queremos un programa donde podamos guardar el nombre de una persona, podemos crear la variable nombre, y luego dentro del programa cada vez que queramos que el nombre de esa persona aparezca, en vez de escribir el nombre, esribimos el identificador de la variable que lo tiene almacenado, en este caso el identificador es "nombre".
+
+STRINGS
+     Los strings son "cadenas de caracteres", es decir, cuando tenemos más de un caracter, ya sea una palabra o una oración (incluso numeros pero entre comillas), es un string. En la mayoría de lenguajes de programación los strings se escriben entre comillas dobles("") o simples (''), y en javascript también. Por ejemplo:
+          "Hola, buen día"
+          "1234324"
+          "Este es un string"
+          'Este también es un string'
+
+FUNCIONES (argumentos, return)
+     Una función es algo así como un programa pequeño dentro de otro programa más grande. Este es muy útil ya que nos permite desarrollar tareas muy específicas y además, nos ayuda a reutilizar código, pues todo el código que esté contenido dentro de una función podrá ser llamado las veces que queramos dentro del programa principal o main.
+     Los argumentos, son aquellos datos que la función necesita que le pasemos cada vez que la llamemos. Por ejemplo, si queremos tener una función que calcule la potencia de un numero con un exponente n, tendremos algo como lo siguiente:
+
+          funcion potencia(base, exponente){
+               potencia = Math.pow(base, exponente)
+               return potencia;
+          }
+     
+     Si observamos, también tenemos una palabra "return". Esta palabra es usada para retornar un valor con la funcion. Como en el ejemplo anterior, cuando llamamos a la funcion le vamos a pasar el valor de la base y del exponente, el código dentro de la función se ejecutará pero si no estuviese la palabra return, la función no nos devolvería ningún valor fuera de ella. Por lo que es necesario su uso ya que al acabarse de ejecutar la función potencia, al ser la variable potencia de un alcance menor, desaparecerá y finalmente no habré logrado nada. 
+
+DECLARACIONES (IF)
+     Para entender mejor esta estructura, es más sencillo traducirlo a nuestro lenguaje cotidiano. If significa si esto....entonces....
+     Vamos a ver un ejemplo:
+          if (numero > 10){
+               console.log("El numero es mayor que 10");
+          }
+
+     En esta sencilla condición, lo que le estamos diciendo al programa es:
+          Si el numero es mayor a 10, entonces imprime "El numero es mayor que 10".
+     Si por ejemplo, el numero fuese 9, el programa va a leer la primera línea donde está la estructura if, la evalua, como ve que el resultado es false, entonces no va a entrar dentro de esta y no va a imprimir nada, pero si en cambio el numero es igual a 12, ahora el programa hará lo mismo que antes...evaluará la condición, verá que es true o verdadero, como si se cumple la condición, entonces entrará dentro del if e imprimirá el mensaje indicado.
+
+VALORES BOOLEANOS (true false)
+     Los valores booleanos no son más que valores lógicos, que como sabemos solo puedetener el valor de Verdadero (true) y Falso (false). Los usamos para realizar comparaciones y se relacionan con las tablas de verdad. Un ejemplo cotidiano sería:
+          ¿Está lloviendo? -> Falso (Dependiendo del día y lugar, esto podrá ser verdadero o falso, pero no pueden ser ambos a la vez. O llueve o no)
+          ¿Estás en Ecuador? -> Verdadero (Al igual que en el anterior ejemplo. O estás o no en Ecuador. Pero no puedes estar y a la vez no)
+
+     

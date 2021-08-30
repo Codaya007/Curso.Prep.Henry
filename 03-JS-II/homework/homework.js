@@ -56,6 +56,7 @@ function saludo(idioma) {
   }
 }
 
+
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
@@ -155,10 +156,10 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   for (var i = 2; i < numero; i++) {
     if(numero % i == 0 && numero != 2){
-      return true;
+      return false;
     }
   }
-  return false;
+  return true;
 }
 
 function esVerdadero(valor){

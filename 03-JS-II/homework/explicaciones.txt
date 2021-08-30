@@ -1,0 +1,22 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* for
+* &&, ||, !
+
+BUCLE FOR 
+     For es una estructura repetitiva. Repetitiva porque me permite "repetir" el mismo código por un numero determinado de veces. Su sintaxis es:
+          for(var contador = inicio; contador <= fin; contador += paso){
+               //bloque de código
+          }
+     En la primera línea tenemos la declaración de la estructura for, es decir, estamos diciendole al programa que vamos a relizar un for. Dentro del paréntesis junto al for lo que va es el inicio de la repetición, luego el fin, y luego va el paso para esas repeticiones.
+     Suponiendo que definimos el inicio = 1, el fin = 10 y el paso = 2;
+     Vamos a tener en total 5 veces el código que pusimos dentro del bucle. Ya que lo que estamos diciendole al programa es que vaya contando de 2 en 2 al poner en paso = 2.
+     Esta estructura es muy útil cuando tenemos código que se repite un numero de veces que ya conocemos. 
+
+&&, ||, !
+     && significa y o conjunción lógica
+          Esta estructura se utiliza junto con los valores de verdad. Esta solo será verdadero cuando ambos sean verdaderos
+     || significa "o" o disyunción lógica
+          Tambien se utiliza junto con los valores de verdad. Pero esta solo será falso cuando ambos sean falsos.
+     ! significa no o negado
+          Y esta simplemente me devuelve el contrario del valor entregado, por ejemplo, si le entrego falso me dará verdadero y viceversa, si le entrego verdadero me dará falso.

@@ -1,0 +1,20 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Arrays
+
+ARRAYS
+     Los arrays también conocidos como arreglos, son estructuras que me permiten almacenar muchos valores de diferentes tipos. Por ejemplo, si quiero almacenar los nombres de mis amigos en una sola estructura, puedo utilizar un array y meter todos lo nombres dentro.
+
+
+
+
+=============APUNTES=============
+arrays -> Listas de elementos
+Funciones:
+     * pop -> Saca el último elemento de la lista
+     * push(elemento) -> Agrega un elemento al array
+     * unshift(elemento) -> Agrega un elemento en la primera posición del arreglo  
+     * shift -> Elimina el primer elemento
+
+Investigar: 
+Funciones idempotentes

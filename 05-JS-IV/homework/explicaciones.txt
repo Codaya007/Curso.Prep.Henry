@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+OBJETOS
+	Los objetos en js son un tipo de datos que nos permiten almacenar diversos valores de diferente tipo, es decir, podemos almacenar cadenas de texto, numeros, booleanos, entre otros.
+PROPIEDADES
+	Las propiedades o atributos son algo así com olas características de algo. Por ejemplo, poniendo como ejemplo una persona, sus atributos o propiedades serían su color de piel, su nombre, su altura, su edad, entre otras. Pues es algo similar al pasarlo a la programacion. Los objetos o clases pueden tener propiedades. 
+MÉTODOS
+	Los métodos son las funciones, lo que puede hacer, las acciones que puede realizar un objeto. Un humano puede caminar, reir, beber agua, etc. Algo así sería en la programación. 
+BUCLE FOR...IN
+	El bucle for...in es una variante del ciclo for. Este nos permite iterar las propiedades de un objeto. Ya que cada atributo del objeto tiene un índice, en cada iteracion accederemos en orden uno a uno, y esto nos facilita trabajar con ellos.
+
+NOTACIÓN DE PUNTOS vs NOTACIÓN DE CORCHETES
+	La notación de puntos nos permite acceder al valor que guarda cada propiedad del objeto, pero para ello debemos conocer el nombre de la propiedad, en cambio, con la notación de corchetes podemos acceder a las propiedades sin conocer la "clave", sino que se realiza mediante índices. 

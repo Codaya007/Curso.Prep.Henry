@@ -1,0 +1,6 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+* Funciones Callback
+
+FUNCIONES CALLBACK:
+     Las funciones Callback son aquellas funciones que se envían como argumento a otra función. Es decir, aquellas que pasamos a otras funciones para que se llamen desde esa función.
+     
